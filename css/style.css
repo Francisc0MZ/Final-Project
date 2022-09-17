@@ -2,37 +2,30 @@
 
 box-sizing: border-box;
 
-padding: 0px;
-
 list-style: none;
 
 text-decoration: none;
 
 font-family: 'Josefin Sans', sans-serif;
-
 }
 
-/* Team color red */
+      /* Team color red */
+
 body {
 
-background-color: #D5042C;
-margin: 0px;
+    background-color: #D5042C;
+    margin: 0px;
 
 }
-
-header, nav, main, section, footer {
-
-    background-color: red;
-
-}
-
+     /* header and nav-bar */
+     
 .header{
 
-width: 100%;
-height: 200px;
-display: block;
-background-color: darkred;
-margin-top: 0%;
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-color: darkred;
+    margin-top: 0%;
 
 }
 
@@ -43,91 +36,154 @@ margin-top: 0%;
     float: left;
     margin: 25px 10px;
     
-    }
+}
 
 .header h1 {
 
-position: relative;
-
-top: 18px;
-
-left: 10px;
-
-text-align: center;
-
-font-size: 100px;
-
-padding: 0;
-
-color: white;
-
-margin-top: 0%;
+    position: relative;
+    top: 18px;
+    left: 10px;
+    text-align: center;
+    font-size: 100px;
+    padding: 0;
+    color: white;
+    margin-top: 0%;
 
 }
 
 .navigation{
 
 
-margin: 5px;
-border: 5px;
-padding: 5px;
-overflow: hidden;
-position: sticky;
-top: 0px;
-letter-spacing: 4px;
-clear: both;
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    letter-spacing: 4px;
+    clear: both;
+    background-color: red;
 
 }
 
 ul {
 
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 
 }
 
 li {
 
-margin: 5px;
-
-text-align: center;
-
-float: left;
+    margin: 5px;
+    text-align: center;
+    float: left;
 
 }
 
 a{
 
-margin: 5px;
-padding: 3px;
-text-align: center;
-color: white;
-font-size: 30px;
+    margin: 5px;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
 
-
-}
+}   
 
 a:hover {
 
-    background-color: firebrick;
+    background-color: darkred;
     border-radius: 5px;
 
 }
 /* #0263AC */
 a:active {
 
-color: #0263AC;
+    color: white;
 
 }
 
 a:visited {
 
-color: white;
+    color: white;
 
 }
 
+/* main and sections */
+
+h2 {
+
+    text-align: center;
+
+}
+
+main {
+
+   background-color: red;
+   padding: 5px;
+   margin: 5px;
+   width: 50%;
+   float: right;
+
+}
+
+section {
+
+    margin: 5px;
+    padding: 5px, 0;
+
+}
+
+iframe {
+
+    display: block;
+    margin: auto;
+
+}
+
+.section-1 {
+
+    justify-content: center;
+
+}
+
+footer {
+    
+    background-color: red;
+    margin: 5px;
+    bottom: 0;
+
+}
+
+
 .copyright {
 
-text-align: center;
+    text-align: center;
+
+}
+
+/* contact form */
+
+.container {
+
+    display: block;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    padding: 5px;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkred;
+    border-radius: 5pxs;
+    
+}
+
+.nav-footer { 
+    background-color: red;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
 
 }

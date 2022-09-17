@@ -12,27 +12,76 @@
     
     <title>Document</title>
 
-    <link rel="stylesheet" href="/css/style.css" >
+    <link rel="stylesheet" type="text/css" href="/css/style.css" >
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    
-    <header>
+        <!--header-->
 
+    <div class="header">
+
+        <a href="index.html"><img src="/images/FC_Bayern_Munich_Logo_2017.svg" alt="Bayern Logo" class="logo" /></a> 
         <h1>Bayern Munich</h1>
+ 
+    </div>
 
-    </header>
+        <!--navigation bar-->
 
-    <nav>
+     <nav class="navigation">
+ 
+         <ul>
+ 
+             <li><a href="index.html">Home</a></li>
+ 
+             <li><a href="about.html">About</a></ul></li>
+ 
+             <li><a href="contact.html">Contacts</a></li>
+ 
+         </ul>
+ 
+     </nav>
 
-        <a href="index.html">Home</a>
+        <!--form-->
 
-        <a href="about.html">About</a>
+    <form action=""class="container">
+                
+        <label for="full Name"> Full Name: </label><br>
+        <input type="text" id="Full Name" name="Full Name"/><br>
+        
+        <label for="email"> Email: </label><br>
+        <input type="email" id="email" name="email"/><br>
+        
+        <label for="request"> Tell Us About You:</label><br>
+        <textarea name="request" id="request" rows="3" cols="30" placeholder="comments, concerns, or tell us about yourself..."></textarea><br>
 
-        <a href="contact.html">Contacts</a>
+        <input type="submit" value="Submit" />
 
-    </nav>
+    </form>
+    
+        <!--footer-->
+    
+    <footer class="navigation">
+
+        <div>
+
+            <ul>
+    
+                <li><a href="index.html">Home</a></li>
+    
+                <li><a href="about.html">About</a></ul></li>
+    
+                <li><a href="contact.html">Contacts</a></li>
+    
+            </ul>
+    
+        </div>
+
+        <h2 class="copyright">&copy: Francisco Javier Munoz</h2>
+
+    </footer>
 
 </body>
 

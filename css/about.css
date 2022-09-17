@@ -1,0 +1,160 @@
+* {
+
+    box-sizing: border-box;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+    }
+    
+    body {
+    
+        background-color: #D5042C;
+        margin: 0px;
+    
+    }
+    
+    header, nav, footer {
+    
+        background-color: red;
+        
+    }
+
+         /* header, nav-bar, and footer */
+
+    .header{
+    
+        width: 100%;
+        height: 200px;
+        display: block;
+        background-color: darkred;
+        margin-top: 0%;
+    
+    }
+    
+    .header img {
+    
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin: 25px 10px;
+        
+    }
+    
+    .header h1 {
+    
+        position: relative;
+        top: 18px;
+        left: 10px;
+        text-align: center;
+        font-size: 100px;
+        padding: 0;
+        color: white;
+        margin-top: 0%;
+    
+    }
+    
+    .navigation{
+    
+    
+        margin: 5px;
+        border: 5px;
+        padding: 5px;
+        overflow: hidden;
+        position: sticky;
+        top: 0px;
+        letter-spacing: 4px;
+        clear: both;
+    
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    li {
+    
+        margin: 5px;
+        text-align: center;
+        float: left;
+    
+    }
+    
+    a{
+    
+        margin: 5px;
+        padding: 3px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    
+    }   
+    
+    a:hover {
+    
+        background-color: firebrick;
+        border-radius: 5px;
+    
+    }
+    
+    a:active {
+    
+        color: white;
+    
+    }
+    
+    a:visited {
+    
+        color: white;
+    
+    }
+
+    .nav-footer { 
+
+        width: 100%;
+        position: relative;
+        bottom: 0px;
+    
+    }
+
+    .copyright {
+
+        text-align: center;
+    
+    }
+
+    /* About */
+
+.about {
+
+background-color: red;
+margin: auto;
+height: 500px;
+width: 900px;
+padding: 10px;
+border-width: 5px;
+border-style: dashed;
+border-color: darkred;
+
+}
+
+p {
+
+font-size: 15px;
+
+}
+
+h2 {
+
+text-align: center;
+
+}
+footer { 
+    
+    background-color: red;
+
+}
